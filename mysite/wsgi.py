@@ -14,3 +14,6 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 
 application = get_wsgi_application()
+# Add the following lines:
+from django.conf import settings
+settings.configure(ALLOWED_HOSTS=['virtual-room.onrender.com'])
