@@ -25,7 +25,7 @@ SECRET_KEY = '+^*wxs7#sjy%v0emu@hab1gdqz&!+5%zzw=8)=%5g93i_kz^&@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['virtual-room.onrender.com'']
 
 
 # Application definition
